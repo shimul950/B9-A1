@@ -207,3 +207,84 @@ header h1 {
     height: 500px;
    
 }
+
+/* portfolio section */
+.portfolio{
+    margin: 100px 100px;
+}
+.description{
+    padding-right: 500px;
+}
+.description h3{
+    color: rgb(255, 0, 0);
+    margin-bottom: -20px;
+}
+.description h1{
+    font-size: 40px;
+    margin-bottom: -10px;
+
+}
+.photo{
+    display: flex;
+    margin-top: 8px;
+    gap: 8px;
+    
+}
+
+/* subscribe section */
+.subscribe{
+    margin: 50px 100px;
+    height: 400px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05); 
+    text-align: center;
+    
+}
+.subscribe h1{
+    font-size: 40px;
+    margin-top: -10px;
+    
+}
+.subscribe input {
+    padding: 20px; 
+    font-size: 18px;
+    border-top-left-radius:100px 100px ;
+    border: none;
+
+}
+.sub{
+    color: aliceblue;
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    font-size: 18px;
+    border-top-right-radius: 100px;
+    border: none;
+    
+}
+
+/* footer section */
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 50px;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+.div{
+    display: flex;
+    gap: 8px;
+}
+
+.section2{
+    display: flex;
+    padding-left: 500px;
+    gap: 8px;
+}
+.section3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
